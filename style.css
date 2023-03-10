@@ -25,7 +25,32 @@ body{
 
 #nav{
     display: flex;
-    justify-content: space-evenly;
+    background-color: #27483e;
+    justify-content: space-around;
+    width: 100%;
     align-items: center;
-    margin-bottom: 50px;
+}
+#options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+button{
+    background-color: rgb(172, 163, 228);
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+a{
+    text-decoration:none;
+    color: #27483e;
+    
 }
