@@ -14,7 +14,7 @@ body{
     font-weight: bold;
 }
 #image{
-    width: 350px;
+    width: 300px;
 }
 
 .container{
@@ -43,14 +43,22 @@ button{
     cursor: pointer;
     font-weight: bold;
     font-family: 'Roboto Mono', monospace;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 15px 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 12px 25px;
     border-radius: 10px;
     margin-top: 30px;
+    border: none;
+}
+button :hover{
+    color: rgb(0, 0, 0);
+    transition: .1s;
 }
 
 a{
     text-decoration:none;
     color: #27483e;
     
+}
+hr{
+    width: 80%;
 }
