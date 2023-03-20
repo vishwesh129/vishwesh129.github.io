@@ -25,7 +25,7 @@ body{
 
 #nav{
     display: flex;
-    background-color: #27483e;
+    /* background-color: #27483e; */
     justify-content: space-around;
     width: 100%;
     align-items: center;
