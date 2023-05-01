@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
-    background-color: darkslateblue;
 }
-#name{
-    font-size: 30px;
-    font-weight: bold;
+
+#nav{
+    display: flex;
+    /* background-color: #27483e; */
+    width: 100%;
+    justify-content: space-between;
 }
-#sde{
-    font-size: 25px;
-    font-weight: bold;
-}
-#image{
-    width: 300px;
+#options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
 }
 
 .container{
@@ -23,18 +27,17 @@ body{
     justify-content: space-around;
 }
 
-#nav{
-    display: flex;
-    /* background-color: #27483e; */
-    justify-content: space-around;
-    width: 100%;
-    align-items: center;
+#name{
+    font-size: 30px;
+    font-weight: bold;
 }
-#options{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 40%;
+
+#sde{
+    font-size: 25px;
+    font-weight: bold;
+}
+#image{
+    width: 300px;
 }
 
 button{
@@ -53,12 +56,21 @@ button :hover{
     color: rgb(0, 0, 0);
     transition: .1s;
 }
-
 a{
     text-decoration:none;
-    color: #27483e;
-    
+    color: white;   
 }
+
 hr{
     width: 80%;
+    margin: 10px auto;
+    height: 2px;
+    background: black;
+} 
+
+.projects-container{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
