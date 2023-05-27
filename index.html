@@ -1,55 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vishwesh</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div id="nav">
-        <img width="150px" src="images/vgn.png">
-        <div id="options">
-            <p>Projects</p>
-            <p>Skills</p>
-            <p>About</p>
-        </div>
+      <img class="logo" width="150px" src="images/vgn.png" />
+      <div id="options">
+        <a href="#"><p>Education</p></a>
+        <a href="#"><p>Projects</p></a>
+        <a href="#"><p>Skills</p></a>
+        <a href="#"><p>About</p></a>
+      </div>
     </div>
-    
-    <div class="container">
-        <div class="details">
-            <p>Hello 👋</p>
-            <p>My name is <span id="name">Vishwesh Goud Nakkala</span></p>
-            <p>I am a <span id="sde">Software Enginner</span></p>
-            <button id="resume">
-                <a href="https://drive.google.com/file/d/1YUCim6r3gs74kkIDLCQESPT2n6xu507Z/view?usp=share_link" target="_blank">RESUME</a>
-            </button>
-        </div>
-        <img id="image" src="images/image.png">
-    </div>
-    <br>
-    <hr>
 
-    <h1 style="text-align: center;">Projects</h1>
-    <div class="projects-container">
-        <div class="card">
-            <h3>Bluemercury Clone</h3>
-            <h5>Tech Stacks: HTML, CSS, JAVASCRIPT</h5>
-            <div>
-                <button><a href="">GitHub</a></button>
-                <button><a href="" >Live</a></button>
-            </div>
-        </div>
-        <div class="card">
-            <h3>TATA 1mg Clone</h3>
-            <h5>Tech Stacks: HTML, CSS, JAVASCRIPT</h5>
-            <div>
-                <button><a href="">GitHub</a></button>
-                <button><a href="" >Live</a></button>
-            </div>
-        </div>
+    <div class="container">
+      <div class="details">
+        <p>Hello 👋</p>
+        <p>My name is <span id="name">Vishwesh Goud Nakkala</span></p>
+        <p>I am a <span id="sde">Software Enginner</span></p>
+        <button id="resume">
+          <a
+            href="https://drive.google.com/file/d/1OaX_HHpIh7wIY5E64pZk_E6mlOkqh8wL/view?usp=share_link"
+            target="_blank"
+            >RESUME</a
+          >
+        </button>
+      </div>
+
+      <img id="image" src="images/image.png" />
     </div>
-    
-</body>
+    <br />
+    <hr />
+
+    <div class="education-container">
+      <div class="ed-title">
+        <h1>Education</h1>
+      </div>
+      <div class="ed-details">
+        <div class="card">
+          <h3>Full Stack Web Development</h3>
+          <h5>Masai School, Bangalore</h5>
+          <p><i>2022 - present</i></p>
+        </div>
+        <div class="card" style="margin-top: 30px;">
+          <h3>B.Tech(Civil Engineering)</h3>
+          <h5>ACE Engineering College, Hyderabad</h5>
+          <p><i>2015 - 2019</i></p>
+        </div>
+        <div class="card" style="margin-top: 30px;">
+          <h3>Intermediate</h3>
+          <h5>NRI Junior College, Hyderabad</h5>
+          <p><i>2013-2015</i></p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <hr />
+
+    <h1 style="text-align: center">Projects</h1>
+    <div class="projects-container">
+      <div class="card1">
+        <img width="400px" src="images/project1.png" alt="p1"/>
+        <h3>Bluemercury Clone</h3>
+        <h5>Tech Stack: HTML, CSS, JAVASCRIPT</h5>
+        <div>
+          <button><a href="https://github.com/RahulDobariya/Project_pw11_bluemercury" target="_blank">GitHub</a></button>
+          <button><a href="http://bluemercury-clone123.netlify.app" target="_blank">Live</a></button>
+        </div>
+      </div>
+      <div class="card2">
+        <img width="400px" src="images/project2.png" alt="p2"/>
+        <h3>TATA 1mg Clone</h3>
+        <h5>Tech Stack: HTML, CSS, JAVASCRIPT</h5>
+        <div>
+          <button><a href="https://github.com/ProActive44/TATA-1mg-clone" target="_blank">GitHub</a></button>
+          <button><a href="https://tata-1mg-clone-site.netlify.app/" target="_blank">Live</a></button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

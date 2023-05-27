@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
@@ -11,7 +12,6 @@ body{
 #nav{
     margin-top: -30px;
     display: flex;
-    /* background-color: #27483e; */
     width: 100%;
     justify-content: space-between;
 }
@@ -19,10 +19,20 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 40%;
+    width: 50%;
+}
+#options a {
+    color: black;
+    padding: 5px 10px;
+}
+#options a :hover{
+    background-color: #6672e5;
+    padding: 5px 10px;
+    transition: .1s;
 }
 
 .container{
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -42,14 +52,13 @@ body{
 }
 
 button{
-    background-color: rgb(172, 163, 228);
+    background-color: #6672e5;
     font-size: 16px;
     cursor: pointer;
     font-weight: bold;
     font-family: 'Roboto Mono', monospace;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 12px 25px;
-    border-radius: 10px;
     margin-top: 30px;
     border: none;
 }
@@ -69,9 +78,52 @@ hr{
     background: black;
 } 
 
+.education-container{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
 .projects-container{
+    width: 100%;
     margin: 20px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.projects-container .card1{
+    background-color: #6672e5;
+    padding: 20px 30px;
+}
+
+.projects-container .card1 button{
+    background-color: #ffd356;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 12px 25px;
+    margin-top: 30px;
+    border: none;
+}
+
+.projects-container .card2{
+    background-color: #ffd356;
+    padding: 30px 30px;
+}
+
+.projects-container .card2 button{
+    background-color: #6672e5;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 12px 25px;
+    margin-top: 30px;
+    border: none;
 }
