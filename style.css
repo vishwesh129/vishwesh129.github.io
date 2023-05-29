@@ -28,7 +28,7 @@ body{
 #options a :hover{
     background-color: #6672e5;
     padding: 5px 10px;
-    transition: .1s;
+    transition: .2s;
 }
 
 .container{
@@ -87,16 +87,18 @@ hr{
 
 
 .projects-container{
-    width: 100%;
+    width: 80%;
     margin: 20px auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
     flex-direction: row;
     justify-content: space-around;
 }
 
 .projects-container .card1{
     background-color: #6672e5;
-    padding: 20px 40px;
+    padding: 10px 50px;
 }
 
 .projects-container .card1 button{
@@ -113,10 +115,28 @@ hr{
 
 .projects-container .card2{
     background-color: #ffd356;
-    padding: 20px 40px;
+    padding: 10px 50px;
 }
 
 .projects-container .card2 button{
+    background-color: #6672e5;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 12px 25px;
+    margin-top: 30px;
+    border: none;
+}
+
+.projects-container .card3{
+    background-color: #ffd356;
+    padding: 10px 50px;
+}
+
+
+.projects-container .card3 button{
     background-color: #6672e5;
     font-size: 16px;
     cursor: pointer;
