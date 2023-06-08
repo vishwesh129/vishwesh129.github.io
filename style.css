@@ -147,3 +147,17 @@ hr{
     margin-top: 30px;
     border: none;
 }
+
+.contact-container{
+    text-align: center;
+    background-color: #6672e5;
+    padding-bottom: 100px;
+}
+.contact-container h1{
+    padding-top: 50px;
+}
+
+.details{
+    margin: 50px 0 50px 500px;
+    text-align: left;
+}
