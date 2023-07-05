@@ -460,16 +460,15 @@ nav .fas {
 
 
 /* ..................................GitHUb.......................................... */
-
-.github-activity-calendar>h1:first-child {
+.react-activity-calendar>h1:first-child {
     margin-top: 8%;
 }
 
-.github-activity-calendar>h1:nth-child(3) {
+.react-activity-calendar>h1:nth-child(3) {
     margin-top: 4%;
 }
 
-.github-activity-calendar h1 {
+.react-activity-calendar h1 {
     text-align: center;
     font-size: 40px;
     margin-bottom: 3%;
@@ -484,7 +483,7 @@ nav .fas {
     gap: 3%;
 }
 
-.github-activity-calendar>div:nth-child(4) {
+.react-activity-calendar>div:nth-child(4) {
     margin: auto;
     width: 80%;
 }
@@ -494,7 +493,6 @@ nav .fas {
     color: white;
     margin: auto;
 }
-
 
 /* ..................................Contact.......................................... */
 
@@ -546,10 +544,14 @@ nav .fas {
 
 
 @media screen and (min-width: 820px) and (max-width:1180px) {
+
+
+
     #home {
         height: auto;
         padding-bottom: 30px;
     }
+
 
     .skill {
         display: grid;
@@ -560,10 +562,10 @@ nav .fas {
 
     .github {
         display: grid;
+        margin: auto;
         grid-template-columns: repeat(1, 1fr);
         /* margin-left: 80px; */
         text-align: center;
-        align-items: center;
     }
 
     #contact {
@@ -610,11 +612,8 @@ nav .fas {
     }
 
     .about-section1 {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
+        display: block;
     }
-
 
     .skill {
         display: grid;
@@ -627,7 +626,6 @@ nav .fas {
         display: grid;
         grid-template-columns: repeat(1, 1 fr);
         margin-left: 20px;
-        align-items: center;
     }
 
     #github-streak-stats img {
@@ -776,6 +774,7 @@ nav .fas {
     }
 
     .github {
+
         margin: auto;
         text-align: center;
     }
@@ -798,6 +797,7 @@ nav .fas {
     }
 
     .github {
+
         margin: auto;
         text-align: center;
     }
