@@ -76,10 +76,10 @@ var typed = new Typed(".typing", {
 
 
 document.querySelector('#resume-button-2').addEventListener("click", () => {
-    window.open("https://drive.google.com/file/d/1h0fVOstKvB8C9rBfUMBW2c-K3ujfeYX6/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1V6YjI9ekR3lIPcNDnVtJZhJCa14Nfmer/view?usp=sharing", "_blank");
 })
 
 
 document.querySelector('#resume-button-1').addEventListener("click", () => {
-    window.open("https://drive.google.com/file/d/1h0fVOstKvB8C9rBfUMBW2c-K3ujfeYX6/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1V6YjI9ekR3lIPcNDnVtJZhJCa14Nfmer/view?usp=sharing", "_blank");
 })
